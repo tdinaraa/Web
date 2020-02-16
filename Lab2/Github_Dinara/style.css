@@ -1,0 +1,183 @@
+nav {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    background-color: rgb(36, 41, 46);
+    top: 0;
+    height: 12%;
+    color: white;
+}
+
+.dropdown {
+    margin-top: 2%;
+    position: relative;
+    display: inline-block;
+    font-weight: 100;
+}
+
+.dropdown-content ul {
+    list-style-type: none;
+    line-height: 30px;
+}
+
+.dropdown-content hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+
+.dropdown-content {
+    margin-top: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: black;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    width: 300px;
+    z-index: 1;
+    height: auto;
+    border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav img {
+    margin: 20px;
+    margin-top: 1.5%;
+    height: 2em;
+    float: left;
+}
+
+.nav-right {
+    position: relative;
+    display: inline;
+    margin-top: 1%;
+    margin-right: 15%;
+    top: 0px;
+    left: 20%;
+}
+
+nav h4 {
+    font-weight: normal;
+    display: inline;
+    margin-right: 15px;
+}
+
+.nav-right input {
+    margin: 1%;
+    background-color: rgb(63, 68, 72);
+    width: 200px;
+    border: solid transparent;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 1%;
+    font-size: 14px;
+}
+
+.nav-right button {
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: rgb(36, 41, 46);
+    border: solid white;
+}
+
+.nav-right a {
+    color: white;
+    font-size: 14px;
+}
+
+.header {
+    background-color: rgb(43, 49, 55);
+    background-image: url("https://github.githubassets.com/images/modules/site/heroes/simple-codelines.svg");
+    height: 130vh;
+}
+
+.main-left {
+    color: white;
+    left: 0;
+    margin-top: 20%;
+}
+
+.main-left h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    line-height: 45px;
+}
+
+.main-left h5 {
+    font-size: 21px;
+    color: rgb(170, 173, 175);
+    font-weight: normal;
+}
+
+.main-right {
+    right: 0;
+    display: block;
+    background-color: white;
+    border-radius: 5px;
+    width: 440px;
+}
+.sign-in {
+    border: none !important;
+}
+
+main div {
+    width: 45%;
+    margin: 10%;
+    margin-left: 10%;
+    position: absolute;
+}
+
+.reg {
+    margin: 30px;
+}
+
+.reg input {
+    display: block;
+    border-radius: 5px;
+    width: 95%;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: solid rgb(209, 213, 218);
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.reg p {
+    font-size: 12px;
+}
+
+.reg button {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(46, 188, 79);
+    border: solid transparent;
+    height: 70px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.reg input:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgb(176, 206, 241);
+    border-color: rgb(33, 136, 255);
+}
+
+.reg button:hover {
+    cursor: pointer;
+    background-color: rgb(40, 167, 69);
+}
+
+.reg a {
+    color: blue;
+}

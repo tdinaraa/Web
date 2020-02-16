@@ -1,0 +1,85 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.head {
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.head2 {
+    font-size: 33px;
+    margin-left: 290px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px auto;
+    
+    height: 40px;
+    width: 100%;
+
+    vertical-align: middle;
+}
+
+.mainAdd {
+    margin-left: 300px;
+    width: 50%;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.addBtn {
+    padding: 8px;
+    padding-top: 10px;
+    height: 40px;
+    width: 70px;
+    background: rgb(51, 122, 183);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 950px;
+    margin-top: -40px;
+}
+
+.done {
+    color: blue;
+    text-decoration-line: line-through;
+}
+
+.undone {
+    color: black;
+    text-decoration-line: none;
+}
+
+.div {
+    border: 1px solid rgb(150, 143, 143);
+    padding: 3% auto;
+    margin-left: 270px;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 50%;
+    position: relative;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.div * {
+    position: relative;
+    top: 25%;
+}
+
+.checkbox {
+    float: left;
+}
+
+.btn {
+    float: right;
+    margin: auto 10px;
+}

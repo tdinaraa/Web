@@ -1,0 +1,77 @@
+.icon {
+    width: 150px;
+    height: 135px;
+    margin-left: 550px;
+    margin-top: 10px;
+}
+
+.tele {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+    margin-left: 525px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.era {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 510px;
+    margin-top: -20px;
+    color: #696765;
+}
+
+.vertical { 
+    border-left: 6px solid rgb(81, 181, 240); 
+    margin-left: 270px;
+    margin-top: -240px;
+    height: 280px; 
+    position:absolute; 
+    left: 50%; 
+} 
+
+li {
+    list-style-type: none;
+}
+
+.rec {
+    font-weight: bold;
+    color: steelblue;
+    margin-left: 45px;
+    margin-top: -20px;
+    font-size: 20px;
+}
+
+.news {
+    margin-top: -230px;
+    margin-left: 870px;
+    margin-right: 160px;
+    padding: 20px;
+}
+
+.link {
+    color: steelblue;
+    font-size: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#bold {
+    font-weight: bold;
+    padding: 5px;
+}
+
+.android {
+    height: 270px;
+    width: 310px;
+    margin-left: 270px;
+    margin-top: -50px;
+}
+
+.iphone {
+    height: 270px;
+    width: 310px;
+    margin-left: 30px;
+    margin-top: -310px;
+}

@@ -1,0 +1,166 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: rgb(237, 240, 245);
+}
+
+header {
+	color: white;
+	background-color: rgb(63, 92, 154);
+}
+
+header div {
+    display: inline-block;
+}
+
+.sign-in {
+	padding-right: 10%;
+	float: right;
+	padding-top: 30px;
+}
+
+.sign-in input {
+	margin-top: 2%;
+}
+
+main {
+	color: rgb(51, 51, 51);
+}
+
+main div {
+	width: 50%;
+	margin-left: 10%;
+	margin-top: 5%;
+	position: absolute;
+	margin-right: -10%;
+}
+
+header h1 {
+	padding-left: 40%;
+	font-size: 40px;
+	padding-bottom: 0%;
+}
+
+.left {
+	left: 0;
+}
+
+.right {
+	right: 0;
+}
+
+.reg input {
+	display: block;
+	margin: 1%;
+	height: 35px;
+	width: 380px;
+	border: 1px solid rgb(189, 199, 216);
+	border-radius: 5px;
+	padding-left: 5px;
+}
+
+.name {
+	display: inline !important;
+	width: 176px!important;
+}
+	
+#h2 {
+	font-size: 28px;
+	margin-bottom: 15px;
+}
+
+.left h4 {
+	font-weight: normal;
+	padding-top: 10px;
+	margin-top: 45px;
+}
+
+.world {
+    width: 500px;
+    height: 200px;
+    margin-right: 150px;
+}
+
+.birthday-label {
+	color: rgb(144, 148, 156);
+	padding-left: 5px;
+	margin-top: 15px;
+	font-size: 20px;
+}
+
+.date {
+	display: inline !important;
+	width: 60px !important;
+	height: 30px !important;
+}
+
+.month {
+	margin: 1%;
+	height: 30px;
+	width: auto;
+	border: 1px solid rgb(189, 199, 216);
+	border-radius: 5px;
+}
+
+.gender {
+	font-size: 17px;
+	padding-right: 10px;
+}
+
+.gender input {
+	margin: 10px;
+}
+
+.submit p {
+	font-size: 12px;
+	margin-right: 35%;
+	margin-top: 5%;
+}
+
+#button {
+	width: 160px;
+	height: 40px;
+	color: white;
+	border: 2px solid rgb(59, 110, 34);
+	background-color: rgb(95, 156, 76);
+	border-radius: 5px;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#button:hover {
+	background-color: rgb(117, 181, 96);
+}
+
+button:hover {
+cursor: pointer;
+}
+
+.submit hr {
+	color: rgb(144, 148, 156);
+	margin-right: 35%;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul li {
+	display: inline;
+	padding: 10px;
+	text-align: left;
+	left:0;
+}
+
+footer {
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	bottom: -70%;
+	background-color: white;
+	padding-top: 10px;
+}
+
+footer hr {
+	align:center;
+	width: 80%;
+}
