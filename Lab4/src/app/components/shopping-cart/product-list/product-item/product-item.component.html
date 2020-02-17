@@ -1,0 +1,43 @@
+<div class="col-md-10">
+Di's Shop
+
+  <div class="main1">
+      <!-- --------------------------------------------------------------------------------------------------------- -->
+      <div class="photo1">
+          <a title="Заказать на Aliexpress" href="{{item.link}}" target="_blank">
+              <img class="photoSize" src="{{ item.image }}">
+          </a>
+      </div>
+
+      <!-- --------------------------------------------------------------------------------------------------------- -->
+      <div class="context1">
+          <h3>
+              <a id="title" title="Посмотреть на Aliexpress" href="{{item.link}}" target="_blank"> {{ item.name }}</a>
+          </h3>
+          <!-- --------------------------------------------------------------------------------------------------------- -->
+          <p *ngIf="item.description">
+              {{ item.description }}
+          </p>
+          <p *ngIf="item.price">
+              {{item.price}}
+          </p>
+          <!-- --------------------------------------------------------------------------------------------------------- -->
+          <p *ngIf="item.rating">
+              <img id="rating" src="https://pngimage.net/wp-content/uploads/2018/06/rating-star-png-6.png"> {{ item.rating }}
+          </p>
+          <!-- --------------------------------------------------------------------------------------------------------- -->
+          <div class="share1">
+              <a target="_blank" href="https://api.whatsapp.com/send?text=See%20this!%20url={{item.link}}" data-action="share/whatsapp/share">
+                  <img id="whatsapp" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/1024px-WhatsApp_logo-color-vertical.svg.png">
+              </a>
+
+              <a target="_blank" href="https://t.me/share/url?url={{item.link}}" data-action="share/whatsapp/share">
+                  <img id="telegram" src="https://image.winudf.com/v2/image1/Y29tLndXaGF0c2FwcGpiXzg2MTY3NTRfaWNvbl8xNTUwNzI3OTE1XzA1OA/icon.png?w=170&fakeurl=1">
+              </a>
+          </div>
+          <!-- --------------------------------------------------------------------------------------------------------- -->
+      </div>
+      <!-- --------------------------------------------------------------------------------------------------------- -->
+  </div>
+  <br>
+</div>
