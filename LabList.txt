@@ -6,3 +6,8 @@ Lab3- ToDo List
 Lab4- MyShops 1
 Lab5- MyShops 2
 Lab6- Tour of heros 
+Lab7- Python & Django
+
+git add .
+git commit -m "comment"
+git push -u origin master
